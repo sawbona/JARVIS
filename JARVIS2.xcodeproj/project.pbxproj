@@ -16,7 +16,6 @@
 		00084FBC1734092A008604D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FBB1734092A008604D2 /* Default.png */; };
 		00084FBE1734092A008604D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FBD1734092A008604D2 /* Default@2x.png */; };
 		00084FC01734092A008604D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FBF1734092A008604D2 /* Default-568h@2x.png */; };
-		00084FC31734092A008604D2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00084FC11734092A008604D2 /* MainStoryboard.storyboard */; };
 		00084FC61734092A008604D2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00084FC51734092A008604D2 /* FirstViewController.m */; };
 		00084FC81734092A008604D2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FC71734092A008604D2 /* first.png */; };
 		00084FCA1734092B008604D2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FC91734092B008604D2 /* first@2x.png */; };
@@ -39,7 +38,6 @@
 		00084FBB1734092A008604D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		00084FBD1734092A008604D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		00084FBF1734092A008604D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		00084FC21734092A008604D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		00084FC41734092A008604D2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		00084FC51734092A008604D2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		00084FC71734092A008604D2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			children = (
 				00084FB81734092A008604D2 /* AppDelegate.h */,
 				00084FB91734092A008604D2 /* AppDelegate.m */,
-				00084FC11734092A008604D2 /* MainStoryboard.storyboard */,
 				00084FC41734092A008604D2 /* FirstViewController.h */,
 				00084FC51734092A008604D2 /* FirstViewController.m */,
 				00084FC71734092A008604D2 /* first.png */,
@@ -179,7 +176,6 @@
 				00084FBC1734092A008604D2 /* Default.png in Resources */,
 				00084FBE1734092A008604D2 /* Default@2x.png in Resources */,
 				00084FC01734092A008604D2 /* Default-568h@2x.png in Resources */,
-				00084FC31734092A008604D2 /* MainStoryboard.storyboard in Resources */,
 				00084FC81734092A008604D2 /* first.png in Resources */,
 				00084FCA1734092B008604D2 /* first@2x.png in Resources */,
 				00084FCF1734092B008604D2 /* second.png in Resources */,
@@ -210,14 +206,6 @@
 				00084FB31734092A008604D2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		00084FC11734092A008604D2 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00084FC21734092A008604D2 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +308,7 @@
 				00084FD61734092B008604D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
