@@ -22,6 +22,8 @@
 		00084FCD1734092B008604D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00084FCC1734092B008604D2 /* SecondViewController.m */; };
 		00084FCF1734092B008604D2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FCE1734092B008604D2 /* second.png */; };
 		00084FD11734092B008604D2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FD01734092B008604D2 /* second@2x.png */; };
+		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
+		FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED266174FB8EF002C1CBB /* SecondView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		00084FCC1734092B008604D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		00084FCE1734092B008604D2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		00084FD01734092B008604D2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		FC0ED264174FB394002C1CBB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		FC0ED266174FB8EF002C1CBB /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			children = (
 				00084FB81734092A008604D2 /* AppDelegate.h */,
 				00084FB91734092A008604D2 /* AppDelegate.m */,
+				FC0ED264174FB394002C1CBB /* View.xib */,
+				FC0ED266174FB8EF002C1CBB /* SecondView.xib */,
 				00084FC41734092A008604D2 /* FirstViewController.h */,
 				00084FC51734092A008604D2 /* FirstViewController.m */,
 				00084FC71734092A008604D2 /* first.png */,
@@ -180,6 +186,8 @@
 				00084FCA1734092B008604D2 /* first@2x.png in Resources */,
 				00084FCF1734092B008604D2 /* second.png in Resources */,
 				00084FD11734092B008604D2 /* second@2x.png in Resources */,
+				FC0ED265174FB394002C1CBB /* View.xib in Resources */,
+				FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

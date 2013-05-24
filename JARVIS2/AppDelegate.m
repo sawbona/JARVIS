@@ -7,19 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
+    UITabBarController* barController = [[UITabBarController alloc] init];
+    FirstViewController* firstView = [[FirstViewController alloc] initWithNibName:@"View" bundle:nil];
+    SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
-    
-    
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
-    //m_view = [[GLView alloc] initWithFrame: screenBounds];
-    
+    [_window setRootViewController:barController];
+    [barController setViewControllers:@[firstView,secondView]];
+    //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];
     
