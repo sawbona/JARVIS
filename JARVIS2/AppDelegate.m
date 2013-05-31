@@ -9,18 +9,22 @@
 #import "AppDelegate.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ActividadesViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UITabBarController* barController = [[UITabBarController alloc] init];
+    
+    barController.delegate = self;
+    ActividadesViewController* listaActividades = [[ActividadesViewController alloc] initWithNibName: @"ActividadesViewController" bundle:nil];
     FirstViewController* firstView = [[FirstViewController alloc] initWithNibName:@"View" bundle:nil];
     SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
     [_window setRootViewController:barController];
-    [barController setViewControllers:@[firstView,secondView]];
+    [barController setViewControllers:@[listaActividades,firstView,secondView]];
     //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];
@@ -55,5 +59,10 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    NSLog(@"Pasé por el evento");
+}
+
 
 @end
