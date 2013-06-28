@@ -48,6 +48,7 @@
     static NSString *CellIdentifier = @"Cell";
 	NSInteger row = indexPath.row;
 	
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil)
 	{
