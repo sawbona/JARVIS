@@ -22,6 +22,8 @@
 		00084FCD1734092B008604D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00084FCC1734092B008604D2 /* SecondViewController.m */; };
 		00084FCF1734092B008604D2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FCE1734092B008604D2 /* second.png */; };
 		00084FD11734092B008604D2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FD01734092B008604D2 /* second@2x.png */; };
+		CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */; };
+		CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
 		FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED266174FB8EF002C1CBB /* SecondView.xib */; };
 		FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD83BC31758F5D7001C5B96 /* ActividadesViewController.m */; };
@@ -50,6 +52,9 @@
 		00084FCC1734092B008604D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		00084FCE1734092B008604D2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		00084FD01734092B008604D2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
+		CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
+		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
 		FC0ED264174FB394002C1CBB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		FC0ED266174FB8EF002C1CBB /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		FCD83BC21758F5D7001C5B96 /* ActividadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActividadesViewController.h; sourceTree = "<group>"; };
@@ -117,6 +122,7 @@
 				00084FCE1734092B008604D2 /* second.png */,
 				00084FD01734092B008604D2 /* second@2x.png */,
 				00084FB01734092A008604D2 /* Supporting Files */,
+				CECC1B8D177DE0A400EFF71E /* configuracion */,
 			);
 			path = JARVIS2;
 			sourceTree = "<group>";
@@ -133,6 +139,16 @@
 				00084FBF1734092A008604D2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECC1B8D177DE0A400EFF71E /* configuracion */ = {
+			isa = PBXGroup;
+			children = (
+				CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */,
+				CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */,
+				CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */,
+			);
+			name = configuracion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +213,7 @@
 				FC0ED265174FB394002C1CBB /* View.xib in Resources */,
 				FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */,
 				FCD83BC61758F5D7001C5B96 /* ActividadesViewController.xib in Resources */,
+				CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 				00084FC61734092A008604D2 /* FirstViewController.m in Sources */,
 				00084FCD1734092B008604D2 /* SecondViewController.m in Sources */,
 				FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */,
+				CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

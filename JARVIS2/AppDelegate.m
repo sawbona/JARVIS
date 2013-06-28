@@ -10,6 +10,7 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "ActividadesViewController.h"
+#import "ConfiguracionViewController.h"
 
 @implementation AppDelegate
 
@@ -21,10 +22,12 @@
     ActividadesViewController* listaActividades = [[ActividadesViewController alloc] initWithNibName: @"ActividadesViewController" bundle:nil];
     FirstViewController* firstView = [[FirstViewController alloc] initWithNibName:@"View" bundle:nil];
     SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
+    ConfiguracionViewController* configView = [[ConfiguracionViewController alloc] initWithNibName:@"ConfiguracionViewController" bundle:nil];
+    
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
     [_window setRootViewController:barController];
-    [barController setViewControllers:@[listaActividades,firstView,secondView]];
+    [barController setViewControllers:@[listaActividades,firstView,secondView,configView]];
     //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];
