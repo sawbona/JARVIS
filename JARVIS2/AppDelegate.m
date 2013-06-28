@@ -31,7 +31,7 @@
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
     [_window setRootViewController:barController];
-    [barController setViewControllers:@[listaActividades,firstView,secondView,configView]];
+    [barController setViewControllers:@[navigationController,firstView,secondView,configView]];
     //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];

@@ -221,6 +221,7 @@
 				FC0ED265174FB394002C1CBB /* View.xib in Resources */,
 				FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */,
 				FCD83BC61758F5D7001C5B96 /* ActividadesViewController.xib in Resources */,
+				FC857FF6177DE38900356495 /* UbicacionesViewController.xib in Resources */,
 				CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +238,7 @@
 				00084FC61734092A008604D2 /* FirstViewController.m in Sources */,
 				00084FCD1734092B008604D2 /* SecondViewController.m in Sources */,
 				FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */,
+				FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */,
 				CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
