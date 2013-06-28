@@ -23,7 +23,7 @@
     SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
-    [_window setRootViewController:barController];
+    [_window setRootViewController:barController]; 
     [barController setViewControllers:@[listaActividades,firstView,secondView]];
     //[_window rootViewController];
     //[window addSubview: m_view];
