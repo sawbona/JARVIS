@@ -7,6 +7,7 @@
 //
 
 #import "ActividadesViewController.h"
+#import "UbicacionesViewController.h"
 
 @interface ActividadesViewController ()
 
@@ -39,16 +40,15 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     //TODO HEctor va a la BD
-//    return [[self.assetItem supportedPresets] count];
-       return 10;
+    //    return [[self.assetItem supportedPresets] count];
+    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-	NSInteger row = indexPath.row;
+	//NSInteger row = indexPath.row;
 	
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil)
 	{
@@ -63,12 +63,21 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-
+    
     return 5;
-    }
+}
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     return @"yeah";
-    }
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UbicacionesViewController *ubicacionesViewController = [[UbicacionesViewController alloc] initWithNibName:@"UbicacionesViewController" bundle:nil];
+    [self.navigationController pushViewController:ubicacionesViewController animated:YES];
+    NSLog(@"Ha seleccionado un elemento de la lista");
+    
+}
+
 
 @end
