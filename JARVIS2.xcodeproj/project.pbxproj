@@ -22,6 +22,8 @@
 		00084FCD1734092B008604D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00084FCC1734092B008604D2 /* SecondViewController.m */; };
 		00084FCF1734092B008604D2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FCE1734092B008604D2 /* second.png */; };
 		00084FD11734092B008604D2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FD01734092B008604D2 /* second@2x.png */; };
+		9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */; };
+		9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
 		FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED266174FB8EF002C1CBB /* SecondView.xib */; };
 		FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC857FEF177DE38900356495 /* UbicacionesViewController.m */; };
@@ -52,6 +54,9 @@
 		00084FCC1734092B008604D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		00084FCE1734092B008604D2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		00084FD01734092B008604D2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleActividadesViewController.h; sourceTree = "<group>"; };
+		9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleActividadesViewController.m; sourceTree = "<group>"; };
+		9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleActividadesViewController.xib; sourceTree = "<group>"; };
 		FC0ED264174FB394002C1CBB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		FC0ED266174FB8EF002C1CBB /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		FC857FEE177DE38900356495 /* UbicacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UbicacionesViewController.h; path = ../UbicacionesViewController.h; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 		00084FAF1734092A008604D2 /* JARVIS2 */ = {
 			isa = PBXGroup;
 			children = (
+				9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */,
+				9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */,
+				9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */,
 				FC857FEE177DE38900356495 /* UbicacionesViewController.h */,
 				FC857FEF177DE38900356495 /* UbicacionesViewController.m */,
 				FC857FF0177DE38900356495 /* UbicacionesViewController.xib */,
@@ -206,6 +214,7 @@
 				FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */,
 				FCD83BC61758F5D7001C5B96 /* ActividadesViewController.xib in Resources */,
 				FC857FF6177DE38900356495 /* UbicacionesViewController.xib in Resources */,
+				9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				00084FCD1734092B008604D2 /* SecondViewController.m in Sources */,
 				FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */,
 				FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */,
+				9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

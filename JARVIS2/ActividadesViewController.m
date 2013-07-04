@@ -8,6 +8,7 @@
 
 #import "ActividadesViewController.h"
 #import "UbicacionesViewController.h"
+#import "DetalleActividadesViewController.h"
 
 @interface ActividadesViewController ()
 
@@ -73,9 +74,9 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    UbicacionesViewController *ubicacionesViewController = [[UbicacionesViewController alloc] initWithNibName:@"UbicacionesViewController" bundle:nil];
-    [self.navigationController pushViewController:ubicacionesViewController animated:YES];
-    NSLog(@"Ha seleccionado un elemento de la lista");
+    DetalleActividadesViewController *detalleActividadesViewController = [[DetalleActividadesViewController alloc] initWithNibName:@"DetalleActividadesViewController" bundle:nil];
+    [self.navigationController pushViewController:detalleActividadesViewController animated:YES];
+    NSLog(@"Ha seleccionado un elemento de la lista detalleActividadesViewController");
     
 }
 
