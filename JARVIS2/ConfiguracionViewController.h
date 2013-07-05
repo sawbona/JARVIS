@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ConfiguracionViewController : UIViewController
+@interface ConfiguracionViewController: UIViewController {
+    NSDictionary *tableContents;
+    NSArray *sortedKeys;
+}
 
+@property (nonatomic,retain) NSDictionary *tableContents;
+@property (nonatomic,retain) NSArray *sortedKeys;
 @end
