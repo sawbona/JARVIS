@@ -133,6 +133,7 @@
 				00084FCE1734092B008604D2 /* second.png */,
 				00084FD01734092B008604D2 /* second@2x.png */,
 				00084FB01734092A008604D2 /* Supporting Files */,
+				CECC1B8D177DE0A400EFF71E /* configuracion */,
 			);
 			path = JARVIS2;
 			sourceTree = "<group>";
@@ -149,6 +150,16 @@
 				00084FBF1734092A008604D2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECC1B8D177DE0A400EFF71E /* configuracion */ = {
+			isa = PBXGroup;
+			children = (
+				CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */,
+				CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */,
+				CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */,
+			);
+			name = configuracion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
