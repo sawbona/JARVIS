@@ -28,6 +28,9 @@
     
     self.sortedKeys =[[self.tableContents allKeys] sortedArrayUsingSelector:@selector(compare:)];
     [super viewDidLoad];
+    
+    
+    self.navigationItem.title = @"Ajustes";
 }
 
 #pragma mark Table Methods

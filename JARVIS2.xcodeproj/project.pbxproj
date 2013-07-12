@@ -59,6 +59,7 @@
 		9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleActividadesViewController.h; sourceTree = "<group>"; };
 		9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleActividadesViewController.m; sourceTree = "<group>"; };
 		9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleActividadesViewController.xib; sourceTree = "<group>"; };
+		CEC4E3BA179055CB00DE3C24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
 		CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
 		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		00084F9D1734092A008604D2 = {
 			isa = PBXGroup;
 			children = (
+				CEC4E3BA179055CB00DE3C24 /* CoreData.framework */,
 				00084FAF1734092A008604D2 /* JARVIS2 */,
 				00084FA81734092A008604D2 /* Frameworks */,
 				00084FA71734092A008604D2 /* Products */,

@@ -23,15 +23,18 @@
     ActividadesViewController* listaActividades = [[ActividadesViewController alloc] initWithNibName: @"ActividadesViewController" bundle:nil];
     
     UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:listaActividades];
-    
+
+
     FirstViewController* firstView = [[FirstViewController alloc] initWithNibName:@"View" bundle:nil];
     SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
     ConfiguracionViewController* configView = [[ConfiguracionViewController alloc] initWithNibName:@"ConfiguracionViewController" bundle:nil];
+  
+    UINavigationController* navigationAjustesController = [[UINavigationController alloc] initWithRootViewController:configView];
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
     [_window setRootViewController:barController];
-    [barController setViewControllers:@[navigationController,firstView,secondView,configView]];
+    [barController setViewControllers:@[navigationController,firstView,secondView,navigationAjustesController]];
     //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];
