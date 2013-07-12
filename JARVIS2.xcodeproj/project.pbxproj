@@ -24,6 +24,8 @@
 		00084FD11734092B008604D2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FD01734092B008604D2 /* second@2x.png */; };
 		9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */; };
 		9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */; };
+		CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */; };
+		CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
 		FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED266174FB8EF002C1CBB /* SecondView.xib */; };
 		FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC857FEF177DE38900356495 /* UbicacionesViewController.m */; };
@@ -57,6 +59,9 @@
 		9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleActividadesViewController.h; sourceTree = "<group>"; };
 		9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleActividadesViewController.m; sourceTree = "<group>"; };
 		9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleActividadesViewController.xib; sourceTree = "<group>"; };
+		CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
+		CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
+		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
 		FC0ED264174FB394002C1CBB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		FC0ED266174FB8EF002C1CBB /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		FC857FEE177DE38900356495 /* UbicacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UbicacionesViewController.h; path = ../UbicacionesViewController.h; sourceTree = "<group>"; };
@@ -226,6 +231,7 @@
 				FCD83BC61758F5D7001C5B96 /* ActividadesViewController.xib in Resources */,
 				FC857FF6177DE38900356495 /* UbicacionesViewController.xib in Resources */,
 				9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */,
+				CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +249,7 @@
 				FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */,
 				FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */,
 				9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */,
+				CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
