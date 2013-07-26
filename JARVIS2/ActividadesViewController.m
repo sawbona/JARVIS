@@ -219,6 +219,7 @@
             
         case NSFetchedResultsChangeDelete:
             [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            [tableView endUpdates];	
             break;
             
         case NSFetchedResultsChangeUpdate:
