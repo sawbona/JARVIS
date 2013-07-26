@@ -241,14 +241,25 @@
 
 - (void) editButtonEvent{
     
+    UIBarButtonItem *editDoneButton = nil;
+    
     if(self.tableView.editing)
     {
         [self.tableView setEditing: NO animated:YES];
         [self.tableView endUpdates];
+        editDoneButton = [[UIBarButtonItem alloc]
+                                    initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                    target:self
+                                    action:@selector(editButtonEvent	)];
     } else {
         [self.tableView setEditing: YES animated:YES];
         [self.tableView beginUpdates];
+        editDoneButton = [[UIBarButtonItem alloc]
+                          initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+                          target:self
+                          action:@selector(editButtonEvent)];
     }
+    self.navigationItem.leftBarButtonItem = editDoneButton;
 }
 
 @end
