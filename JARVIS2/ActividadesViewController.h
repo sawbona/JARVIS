@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface ActividadesViewController : UIViewController <UITableViewDataSource>
+@interface ActividadesViewController : UIViewController <UITableViewDataSource, NSFetchedResultsControllerDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @end

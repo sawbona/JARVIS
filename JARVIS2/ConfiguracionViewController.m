@@ -28,9 +28,6 @@
     
     self.sortedKeys =[[self.tableContents allKeys] sortedArrayUsingSelector:@selector(compare:)];
     [super viewDidLoad];
-    
-    
-    self.navigationItem.title = @"Ajustes";
 }
 
 #pragma mark Table Methods
@@ -87,7 +84,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger row = [indexPath row];
     NSString *rowValue = [listData objectAtIndex:row];
     
-    NSString *message = [[NSString alloc] initWithFormat:rowValue];
+    NSString *message = [[NSString alloc] initWithFormat: rowValue];
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"You selected"
                           message:message delegate:nil
