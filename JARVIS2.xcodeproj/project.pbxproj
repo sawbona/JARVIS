@@ -24,6 +24,8 @@
 		00084FD11734092B008604D2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00084FD01734092B008604D2 /* second@2x.png */; };
 		9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */; };
 		9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */; };
+		9DCDA12B179054A90054C2F7 /* JarvisModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA129179054A90054C2F7 /* JarvisModel.xcdatamodeld */; };
+		9DCDA12D179055B00054C2F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCDA12C179055B00054C2F7 /* CoreData.framework */; };
 		CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */; };
 		CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
@@ -59,7 +61,8 @@
 		9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleActividadesViewController.h; sourceTree = "<group>"; };
 		9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleActividadesViewController.m; sourceTree = "<group>"; };
 		9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleActividadesViewController.xib; sourceTree = "<group>"; };
-		CEC4E3BA179055CB00DE3C24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DCDA12A179054A90054C2F7 /* JarvisModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JarvisModel.xcdatamodel; sourceTree = "<group>"; };
+		9DCDA12C179055B00054C2F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
 		CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
 		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCDA12D179055B00054C2F7 /* CoreData.framework in Frameworks */,
 				00084FAA1734092A008604D2 /* UIKit.framework in Frameworks */,
 				00084FAC1734092A008604D2 /* Foundation.framework in Frameworks */,
 				00084FAE1734092A008604D2 /* CoreGraphics.framework in Frameworks */,
@@ -90,7 +94,6 @@
 		00084F9D1734092A008604D2 = {
 			isa = PBXGroup;
 			children = (
-				CEC4E3BA179055CB00DE3C24 /* CoreData.framework */,
 				00084FAF1734092A008604D2 /* JARVIS2 */,
 				00084FA81734092A008604D2 /* Frameworks */,
 				00084FA71734092A008604D2 /* Products */,
@@ -108,6 +111,7 @@
 		00084FA81734092A008604D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DCDA12C179055B00054C2F7 /* CoreData.framework */,
 				00084FA91734092A008604D2 /* UIKit.framework */,
 				00084FAB1734092A008604D2 /* Foundation.framework */,
 				00084FAD1734092A008604D2 /* CoreGraphics.framework */,
@@ -118,6 +122,7 @@
 		00084FAF1734092A008604D2 /* JARVIS2 */ = {
 			isa = PBXGroup;
 			children = (
+				9DCDA128179054900054C2F7 /* Persistencia */,
 				9D6BB180177DEA2F00200F6D /* DetalleActividadesViewController.h */,
 				9D6BB181177DEA2F00200F6D /* DetalleActividadesViewController.m */,
 				9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */,
@@ -157,6 +162,14 @@
 				00084FBF1734092A008604D2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DCDA128179054900054C2F7 /* Persistencia */ = {
+			isa = PBXGroup;
+			children = (
+				9DCDA129179054A90054C2F7 /* JarvisModel.xcdatamodeld */,
+			);
+			name = Persistencia;
 			sourceTree = "<group>";
 		};
 		CECC1B8D177DE0A400EFF71E /* configuracion */ = {
@@ -252,6 +265,7 @@
 				FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */,
 				9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */,
 				CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */,
+				9DCDA12B179054A90054C2F7 /* JarvisModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +383,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DCDA129179054A90054C2F7 /* JarvisModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DCDA12A179054A90054C2F7 /* JarvisModel.xcdatamodel */,
+			);
+			currentVersion = 9DCDA12A179054A90054C2F7 /* JarvisModel.xcdatamodel */;
+			path = JarvisModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00084F9E1734092A008604D2 /* Project object */;
 }
