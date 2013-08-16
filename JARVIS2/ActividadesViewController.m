@@ -57,6 +57,7 @@
     // If appropriate, configure the new managed object.
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
     [newManagedObject setValue:[NSDate date] forKey:@"inicio"];
+    [newManagedObject setValue:@"Nueva" forKey:@"descripcion"];
     
 //    [newManagedObject setValue:@"Nueva actividad" forKey:@"descripcion"];
     newManagedObject.descripcion = @"Nueva actividad cambiada";
