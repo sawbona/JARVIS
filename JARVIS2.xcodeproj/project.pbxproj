@@ -26,6 +26,9 @@
 		9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */; };
 		9DCDA12B179054A90054C2F7 /* JarvisModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DCDA129179054A90054C2F7 /* JarvisModel.xcdatamodeld */; };
 		9DCDA12D179055B00054C2F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCDA12C179055B00054C2F7 /* CoreData.framework */; };
+		CE7C58F517BE7D8E008E770C /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C58F417BE7D8E008E770C /* Usuario.m */; };
+		CE7C58F817BE7D8F008E770C /* Wbs.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C58F717BE7D8F008E770C /* Wbs.m */; };
+		CE7C58FB17BE7D8F008E770C /* Actividad.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C58FA17BE7D8F008E770C /* Actividad.m */; };
 		CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */; };
 		CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
@@ -63,6 +66,12 @@
 		9D6BB182177DEA2F00200F6D /* DetalleActividadesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleActividadesViewController.xib; sourceTree = "<group>"; };
 		9DCDA12A179054A90054C2F7 /* JarvisModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JarvisModel.xcdatamodel; sourceTree = "<group>"; };
 		9DCDA12C179055B00054C2F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE7C58F317BE7D8E008E770C /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		CE7C58F417BE7D8E008E770C /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		CE7C58F617BE7D8F008E770C /* Wbs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wbs.h; sourceTree = "<group>"; };
+		CE7C58F717BE7D8F008E770C /* Wbs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wbs.m; sourceTree = "<group>"; };
+		CE7C58F917BE7D8F008E770C /* Actividad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actividad.h; sourceTree = "<group>"; };
+		CE7C58FA17BE7D8F008E770C /* Actividad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actividad.m; sourceTree = "<group>"; };
 		CECC1B88177DE07000EFF71E /* ConfiguracionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracionViewController.h; sourceTree = "<group>"; };
 		CECC1B89177DE07000EFF71E /* ConfiguracionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracionViewController.m; sourceTree = "<group>"; };
 		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +155,12 @@
 				00084FD01734092B008604D2 /* second@2x.png */,
 				00084FB01734092A008604D2 /* Supporting Files */,
 				CECC1B8D177DE0A400EFF71E /* configuracion */,
+				CE7C58F917BE7D8F008E770C /* Actividad.h */,
+				CE7C58FA17BE7D8F008E770C /* Actividad.m */,
+				CE7C58F617BE7D8F008E770C /* Wbs.h */,
+				CE7C58F717BE7D8F008E770C /* Wbs.m */,
+				CE7C58F317BE7D8E008E770C /* Usuario.h */,
+				CE7C58F417BE7D8E008E770C /* Usuario.m */,
 			);
 			path = JARVIS2;
 			sourceTree = "<group>";
@@ -266,6 +281,9 @@
 				9D6BB183177DEA2F00200F6D /* DetalleActividadesViewController.m in Sources */,
 				CECC1B8B177DE07000EFF71E /* ConfiguracionViewController.m in Sources */,
 				9DCDA12B179054A90054C2F7 /* JarvisModel.xcdatamodeld in Sources */,
+				CE7C58F517BE7D8E008E770C /* Usuario.m in Sources */,
+				CE7C58F817BE7D8F008E770C /* Wbs.m in Sources */,
+				CE7C58FB17BE7D8F008E770C /* Actividad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
