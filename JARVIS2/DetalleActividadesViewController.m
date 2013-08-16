@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Francisco Esteban Aguilar. All rights reserved.
 //
 
-#import "DetalleActividadesViewController.h"
+#import "DetalleActividadesViewController.h" 
 
 @interface DetalleActividadesViewController ()
 
