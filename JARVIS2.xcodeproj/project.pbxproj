@@ -33,6 +33,9 @@
 		CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */; };
 		FC0ED265174FB394002C1CBB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED264174FB394002C1CBB /* View.xib */; };
 		FC0ED267174FB8EF002C1CBB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0ED266174FB8EF002C1CBB /* SecondView.xib */; };
+		FC1C792017C7B31B00340A45 /* ProyectosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1C791E17C7B31B00340A45 /* ProyectosViewController.m */; };
+		FC1C792117C7B31B00340A45 /* ProyectosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1C791F17C7B31B00340A45 /* ProyectosViewController.xib */; };
+		FC679AC617C7BA1700250116 /* Proyecto.m in Sources */ = {isa = PBXBuildFile; fileRef = FC679AC517C7BA1700250116 /* Proyecto.m */; };
 		FC857FF5177DE38900356495 /* UbicacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC857FEF177DE38900356495 /* UbicacionesViewController.m */; };
 		FC857FF6177DE38900356495 /* UbicacionesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC857FF0177DE38900356495 /* UbicacionesViewController.xib */; };
 		FCD83BC51758F5D7001C5B96 /* ActividadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD83BC31758F5D7001C5B96 /* ActividadesViewController.m */; };
@@ -77,6 +80,11 @@
 		CECC1B8A177DE07000EFF71E /* ConfiguracionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracionViewController.xib; sourceTree = "<group>"; };
 		FC0ED264174FB394002C1CBB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		FC0ED266174FB8EF002C1CBB /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		FC1C791D17C7B31B00340A45 /* ProyectosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProyectosViewController.h; sourceTree = "<group>"; };
+		FC1C791E17C7B31B00340A45 /* ProyectosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProyectosViewController.m; sourceTree = "<group>"; };
+		FC1C791F17C7B31B00340A45 /* ProyectosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProyectosViewController.xib; sourceTree = "<group>"; };
+		FC679AC417C7BA1700250116 /* Proyecto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proyecto.h; sourceTree = "<group>"; };
+		FC679AC517C7BA1700250116 /* Proyecto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proyecto.m; sourceTree = "<group>"; };
 		FC857FEE177DE38900356495 /* UbicacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UbicacionesViewController.h; path = ../UbicacionesViewController.h; sourceTree = "<group>"; };
 		FC857FEF177DE38900356495 /* UbicacionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UbicacionesViewController.m; path = ../UbicacionesViewController.m; sourceTree = "<group>"; };
 		FC857FF0177DE38900356495 /* UbicacionesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UbicacionesViewController.xib; path = ../UbicacionesViewController.xib; sourceTree = "<group>"; };
@@ -161,6 +169,11 @@
 				CE7C58F717BE7D8F008E770C /* Wbs.m */,
 				CE7C58F317BE7D8E008E770C /* Usuario.h */,
 				CE7C58F417BE7D8E008E770C /* Usuario.m */,
+				FC1C791D17C7B31B00340A45 /* ProyectosViewController.h */,
+				FC1C791E17C7B31B00340A45 /* ProyectosViewController.m */,
+				FC1C791F17C7B31B00340A45 /* ProyectosViewController.xib */,
+				FC679AC417C7BA1700250116 /* Proyecto.h */,
+				FC679AC517C7BA1700250116 /* Proyecto.m */,
 			);
 			path = JARVIS2;
 			sourceTree = "<group>";
@@ -262,6 +275,7 @@
 				FC857FF6177DE38900356495 /* UbicacionesViewController.xib in Resources */,
 				9D6BB184177DEA2F00200F6D /* DetalleActividadesViewController.xib in Resources */,
 				CECC1B8C177DE07000EFF71E /* ConfiguracionViewController.xib in Resources */,
+				FC1C792117C7B31B00340A45 /* ProyectosViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,8 @@
 				CE7C58F517BE7D8E008E770C /* Usuario.m in Sources */,
 				CE7C58F817BE7D8F008E770C /* Wbs.m in Sources */,
 				CE7C58FB17BE7D8F008E770C /* Actividad.m in Sources */,
+				FC1C792017C7B31B00340A45 /* ProyectosViewController.m in Sources */,
+				FC679AC617C7BA1700250116 /* Proyecto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

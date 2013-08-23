@@ -10,6 +10,7 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "ActividadesViewController.h"
+#import "ProyectosViewController.h"
 #import "ConfiguracionViewController.h"
 
 @implementation AppDelegate
@@ -25,17 +26,22 @@
     
     barController.delegate = self;
     ActividadesViewController* listaActividades = [[ActividadesViewController alloc] initWithNibName: @"ActividadesViewController" bundle:nil];
+    ProyectosViewController* listaProyectos = [[ProyectosViewController alloc] initWithNibName: @"ProyectosViewController" bundle:nil];
+
     
-    UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:listaActividades];
+    UINavigationController* navigationControllerActividades = [[UINavigationController alloc] initWithRootViewController:listaActividades];
+    
+    UINavigationController* navigationControllerProyectos = [[UINavigationController alloc] initWithRootViewController:listaProyectos];
     
     FirstViewController* firstView = [[FirstViewController alloc] initWithNibName:@"View" bundle:nil];
     SecondViewController* secondView = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
     ConfiguracionViewController* configView = [[ConfiguracionViewController alloc] initWithNibName:@"ConfiguracionViewController" bundle:nil];
         listaActividades.managedObjectContext = self.managedObjectContext;
+        listaProyectos.managedObjectContext = self.managedObjectContext;
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     _window = [[UIWindow alloc] initWithFrame: screenBounds];
     [_window setRootViewController:barController];
-    [barController setViewControllers:@[navigationController,firstView,secondView,configView]];
+    [barController setViewControllers:@[navigationControllerActividades,navigationControllerProyectos, firstView,secondView,configView]];
     //[_window rootViewController];
     //[window addSubview: m_view];
     [_window makeKeyAndVisible];
