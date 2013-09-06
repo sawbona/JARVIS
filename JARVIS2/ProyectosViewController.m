@@ -8,7 +8,7 @@
 
 #import "ProyectosViewController.h"
 #import "UbicacionesViewController.h"
-#import "DetalleActividadesViewController.h"
+#import "DetalleProyectoViewController.h"
 #import "Proyecto.h"
 
 @interface ProyectosViewController ()
@@ -158,9 +158,11 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    DetalleActividadesViewController *detalleActividadesViewController = [[DetalleActividadesViewController alloc] initWithNibName:@"DetalleActividadesViewController" bundle:nil];
-    [self.navigationController pushViewController:detalleActividadesViewController animated:YES];
-    NSLog(@"Ha seleccionado un elemento de la lista detalleActividadesViewController");
+    DetalleProyectoViewController *detalleProyectoViewController = [[DetalleProyectoViewController alloc] initWithNibName:@"DetalleProyectoViewController" bundle:nil];
+    Proyecto *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    detalleProyectoViewController.proyecto = object;
+    [self.navigationController pushViewController:detalleProyectoViewController animated:YES];
+    NSLog(@"Ha seleccionado un elemento de la lista detalleProyectoViewController");
     
 }
 

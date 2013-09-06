@@ -157,8 +157,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetalleActividadesViewController *detalleActividadesViewController = [[DetalleActividadesViewController alloc] initWithNibName:@"DetalleActividadesViewController" bundle:nil];
+    Actividad *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    detalleActividadesViewController.actividad = object;
     [self.navigationController pushViewController:detalleActividadesViewController animated:YES];
     NSLog(@"Ha seleccionado un elemento de la lista detalleActividadesViewController");
+    
     
 }
 
