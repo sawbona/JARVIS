@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "SimpleTableCell.h"
 
 @interface ProyectosViewController : UIViewController <UITableViewDataSource, NSFetchedResultsControllerDelegate>
 
