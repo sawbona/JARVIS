@@ -11,5 +11,5 @@
 
 @interface SimpleTableCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *dynamicDesc;
-@property (weak, nonatomic) IBOutlet UIImageView *thumbnailImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *thumbnailImageView; 
 @end
